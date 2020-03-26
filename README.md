@@ -43,6 +43,7 @@ centos：
     rpm -Uvh epel-release*rpm
     #然后即可使用yum安装：
     yum install libnet libpcap libnet-devel libpcap-devel
+    yum install -y libnet libnet-devel libpcap libpcap-devel gcc
 
 编译：
 
