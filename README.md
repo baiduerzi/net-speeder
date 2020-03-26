@@ -37,10 +37,10 @@ debian/ubuntu：
 centos： 
 
     #下载epel：https://fedoraproject.org/wiki/EPEL/zh-cn 例：CentOS6 64位：
-    wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+    wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
     #（如果是centos5，则在epel/5/下）
     #安装epel：
-    rpm -ivh epel-release-6-8.noarch.rpm
+    rpm -Uvh epel-release*rpm
     #然后即可使用yum安装：
     yum install libnet libpcap libnet-devel libpcap-devel
 
